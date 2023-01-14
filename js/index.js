@@ -104,3 +104,41 @@
 // }
 // const loginCreds = login === email && password === myPass ? 'Welcome' : 'Enter correct credentials';
 // console.log(loginCreds)
+
+
+const period = prompt('ПЕРІОД ПІДПИСКИ НА СЕРВІС');
+
+// if (period === 'День') {
+//     console.log('Ціна 1.99');
+// } else if (period === 'НЕДІЛЯ') {
+//     console.log ('Ціна 5.99')
+// } else if (period === 'Місяць') {
+//     console.log('Ціна 10.99')
+// } else if (period === 'Рік') {
+//     console.log ('Ціна 100.99')
+// } else {
+//     console.log ('Невірні дані')
+// }
+
+
+switch (period) {
+    case 'День':
+        console.log('Ціна 1.99')
+        break;
+    
+    case 'Неділя':
+        console.log('Ціна 5.99');
+        break;
+    
+    case 'Місяць':
+        console.log('Ціна 10.99')
+        break;
+    
+    case 'Рік':
+        console.log('Ціна 100.99');
+        break;
+    
+    default:
+        console.log('Невірні дані')
+        break;
+}

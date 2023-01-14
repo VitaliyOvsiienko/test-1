@@ -106,7 +106,7 @@
 // console.log(loginCreds)
 
 
-const period = prompt('ПЕРІОД ПІДПИСКИ НА СЕРВІС');
+// const period = prompt('ПЕРІОД ПІДПИСКИ НА СЕРВІС');
 
 // if (period === 'День') {
 //     console.log('Ціна 1.99');
@@ -121,24 +121,36 @@ const period = prompt('ПЕРІОД ПІДПИСКИ НА СЕРВІС');
 // }
 
 
-switch (period) {
-    case 'День':
-        console.log('Ціна 1.99')
-        break;
+// switch (period) {
+//     case 'День':
+//         console.log('Ціна 1.99')
+//         break;
     
-    case 'Неділя':
-        console.log('Ціна 5.99');
-        break;
+//     case 'Неділя':
+//         console.log('Ціна 5.99');
+//         break;
     
-    case 'Місяць':
-        console.log('Ціна 10.99')
-        break;
+//     case 'Місяць':
+//         console.log('Ціна 10.99')
+//         break;
     
-    case 'Рік':
-        console.log('Ціна 100.99');
-        break;
+//     case 'Рік':
+//         console.log('Ціна 100.99');
+//         break;
     
-    default:
-        console.log('Невірні дані')
-        break;
-}
+//     default:
+//         console.log('Невірні дані')
+//         break;
+// }
+
+
+
+// ЗАДАЧА 9 
+// НАПИШІТЬ ЦИКЛ FOR ЯКА БУДЕ ВИВОДИТИ У КОНСОЛЬ ЧИСЛА ЗА ЗРОСТАННЯМ ВІД MIN ДО MAX, ПІСЛЯ ТОГО ЧИСЛА КРАТНІ 10 
+
+
+
+
+// ЗАДАЧА 10 
+// НАПИШІТЬ ПРОГРАМУ, ЯКА БУДЕ ВИЗНАЧАТИ ДОВЖИНУ ІМЕНІ , ЯКЩО ІМЯ БІЛЬШЕ 7 СИМВОЛІВ, КОНСОЛЬ ВИВОДИТЬ "Wow, you  have a REALLY long name!" , ЯКЩО МЕНШЕ 7 
+// "Your name isn't very long"

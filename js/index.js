@@ -76,15 +76,31 @@
 // ЗАДАЧА 6
 // НАПИШІТЬ ПРОГРАМУ , ДЕ МИ У КОРИСТОВАЧА ПИТАЄМОСЬ МІСЯЦЬ НАРОДЖЕННЯ, І ПОКАЗУЄМО У ЯКУ ПОРУ РОКУ ВІН НАРОДИВСЯ
 
-const month = Number(prompt('Місяць нарождення - числом'));
-if (month === 12 || month === 1 || month === 2) {
-    console.log('Зима')
-} else if(month >= 3 && month <= 5) {
-    console.log('Весна')
-} else if(month >= 6 && month <= 8) {
-console.log('Літо')
-} else if(month >= 9 && month <= 11) {
-    console.log('Осінь')
- } else{
-    console.log('Error')
- }
+// const month = Number(prompt('Місяць нарождення - числом'));
+// if (month === 12 || month === 1 || month === 2) {
+//     console.log('Зима')
+// } else if(month >= 3 && month <= 5) {
+//     console.log('Весна')
+// } else if(month >= 6 && month <= 8) {
+// console.log('Літо')
+// } else if(month >= 9 && month <= 11) {
+//     console.log('Осінь')
+//  } else{
+//     console.log('Error')
+//  }
+
+
+//ЗАДАЧА 7: НАПИШІТЬ ПРОГРАМУ, ЯКА ПРОВІРЯЄ ЛОГІТ І ПАРОЛЬ, І ВИВОДИТЬ ПРИВІТАННЯ - ЯКЩО ВСЕ ДОБРЕ, АБО ВИДАЄ ПОМИЛКУ , ЩО НЕ ВІРНИЙ ЛОГІН
+// const email = 'y.lapach@gmail.com';
+// const myPass = 'pass123!';
+
+// const login = prompt('Enter your email');
+// const password = prompt('Enter your password');
+
+// if (login === email && password === myPass) {
+//     console.log('Welcome')
+// } else {
+//     console.log('Enter correct credentials')
+// }
+// const loginCreds = login === email && password === myPass ? 'Welcome' : 'Enter correct credentials';
+// console.log(loginCreds)

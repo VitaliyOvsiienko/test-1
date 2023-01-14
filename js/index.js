@@ -71,3 +71,20 @@
 // // }
 // const number = yourNumber % 2 === 0 ? 'Ціле число' : 'Не ціле число';
 // console.log(number)
+
+
+// ЗАДАЧА 6
+// НАПИШІТЬ ПРОГРАМУ , ДЕ МИ У КОРИСТОВАЧА ПИТАЄМОСЬ МІСЯЦЬ НАРОДЖЕННЯ, І ПОКАЗУЄМО У ЯКУ ПОРУ РОКУ ВІН НАРОДИВСЯ
+
+const month = Number(prompt('Місяць нарождення - числом'));
+if (month === 12 || month === 1 || month === 2) {
+    console.log('Зима')
+} else if(month >= 3 && month <= 5) {
+    console.log('Весна')
+} else if(month >= 6 && month <= 8) {
+console.log('Літо')
+} else if(month >= 9 && month <= 11) {
+    console.log('Осінь')
+ } else{
+    console.log('Error')
+ }

@@ -5,7 +5,6 @@
 // const hobby = 'JavaScript';
 // const message = `ДОБРОГО ДНЯ,МЕНЕ ЗВАТИ ${name}, МЕНІ ${age} РОКІВ, Я ВИВЧАЮ ${hobby}`;
 
-
 // console.log(message);
 
 // ЗАДАЧА 2
@@ -15,7 +14,6 @@
 // const mail = prompt('Ваша пошта');
 // const telefon = prompt('Ваш телефон')
 // const message = `КОРИСТУВАЧ ${userName} ВИКОРИСТОВУЄ ${mail} ПОЧТУ І ${telefon} ТЕЛЕФОН `;
-
 
 // console.log(message);
 
@@ -31,7 +29,6 @@
 
 // console.log(message);
 
-
 // ПОРАХУЙТЕ СУМУ ТОВАРІВ У КОРЗИНІ .
 // ПОТРІБНО ВВЕСТИ СУМУ 3-Х ТОВАРІВ І ПОРАХУВАТИ ЇХ СУМУ
 
@@ -43,12 +40,10 @@
 
 // console.log(totalPrice);
 
-
 // ЗАДАЧА 4
 // ВИКОРИСТОВУЮЧИ КОНСТРУКЦІЮ IF...ELSE , НАПИШИ КОД, ЯКИЙ БУДЕ ЗАПИТУВАТИ:
 // "СКІЛЬКИ МІСЯЦІВ МАЄ РІК", ЯКЩО КОРИСТУВАЧ ВВОДИТЬ 12 ТО У КОНСОЛІ ПИШЕ ВІРНО, ЯКЩО НЕ ПРАВИЛЬНО КОРИСТУВАЧ ВВІВ, ТОДІ У КОНСОЛІ ПИШЕ
 // "НЕ ЗНАЄТЕ? 12"
-
 
 // const whatNumber = Number(prompt('СКІЛЬКИ МІСЯЦІВ МАЄ РІК'));
 
@@ -56,9 +51,8 @@
 //     console.log('Вірно');
 // } else {
 //     console.log('НЕ ЗНАЄТЕ? 12');
-    
-// }
 
+// }
 
 //ЗАДАЧА 5: НАПИШІТЬ ПРОГРАМУ, ЯКА ДОЗВОЛЯТИМЕ ЮЗЕРУ ВВОДИТИ ЧИСЛО І ОПРИДІЛЯТИМЕ ЧИ ЦІЛЕ ЦЕ ЧИСЛО, ЧИ НЕ ЦІЛЕ
 
@@ -71,7 +65,6 @@
 // // }
 // const number = yourNumber % 2 === 0 ? 'Ціле число' : 'Не ціле число';
 // console.log(number)
-
 
 // ЗАДАЧА 6
 // НАПИШІТЬ ПРОГРАМУ , ДЕ МИ У КОРИСТОВАЧА ПИТАЄМОСЬ МІСЯЦЬ НАРОДЖЕННЯ, І ПОКАЗУЄМО У ЯКУ ПОРУ РОКУ ВІН НАРОДИВСЯ
@@ -89,7 +82,6 @@
 //     console.log('Error')
 //  }
 
-
 //ЗАДАЧА 7: НАПИШІТЬ ПРОГРАМУ, ЯКА ПРОВІРЯЄ ЛОГІТ І ПАРОЛЬ, І ВИВОДИТЬ ПРИВІТАННЯ - ЯКЩО ВСЕ ДОБРЕ, АБО ВИДАЄ ПОМИЛКУ , ЩО НЕ ВІРНИЙ ЛОГІН
 // const email = 'y.lapach@gmail.com';
 // const myPass = 'pass123!';
@@ -105,7 +97,6 @@
 // const loginCreds = login === email && password === myPass ? 'Welcome' : 'Enter correct credentials';
 // console.log(loginCreds)
 
-
 // const period = prompt('ПЕРІОД ПІДПИСКИ НА СЕРВІС');
 
 // if (period === 'День') {
@@ -120,37 +111,59 @@
 //     console.log ('Невірні дані')
 // }
 
-
 // switch (period) {
 //     case 'День':
 //         console.log('Ціна 1.99')
 //         break;
-    
+
 //     case 'Неділя':
 //         console.log('Ціна 5.99');
 //         break;
-    
+
 //     case 'Місяць':
 //         console.log('Ціна 10.99')
 //         break;
-    
+
 //     case 'Рік':
 //         console.log('Ціна 100.99');
 //         break;
-    
+
 //     default:
 //         console.log('Невірні дані')
 //         break;
 // }
 
+// ЗАДАЧА 9
+// НАПИШІТЬ ЦИКЛ FOR ЯКА БУДЕ ВИВОДИТИ У КОНСОЛЬ ЧИСЛА ЗА ЗРОСТАННЯМ ВІД MIN ДО MAX, ПІСЛЯ ТОГО ЧИСЛА КРАТНІ 10
 
-
-// ЗАДАЧА 9 
-// НАПИШІТЬ ЦИКЛ FOR ЯКА БУДЕ ВИВОДИТИ У КОНСОЛЬ ЧИСЛА ЗА ЗРОСТАННЯМ ВІД MIN ДО MAX, ПІСЛЯ ТОГО ЧИСЛА КРАТНІ 10 
-
-
-
-// ЗАДАЧА 10 
-// НАПИШІТЬ ПРОГРАМУ, ЯКА БУДЕ ВИЗНАЧАТИ ДОВЖИНУ ІМЕНІ , ЯКЩО ІМЯ БІЛЬШЕ 7 СИМВОЛІВ, КОНСОЛЬ ВИВОДИТЬ "Wow, you  have a REALLY long name!" , ЯКЩО МЕНШЕ 7 
+// ЗАДАЧА 10
+// НАПИШІТЬ ПРОГРАМУ, ЯКА БУДЕ ВИЗНАЧАТИ ДОВЖИНУ ІМЕНІ , ЯКЩО ІМЯ БІЛЬШЕ 7 СИМВОЛІВ, КОНСОЛЬ ВИВОДИТЬ "Wow, you  have a REALLY long name!" , ЯКЩО МЕНШЕ 7
 // "Your name isn't very long"
 
+// ЗАДАЧА 9
+// НАПИШІТЬ ЦИКЛ FOR ЯКА БУДЕ ВИВОДИТИ У КОНСОЛЬ ЧИСЛА ЗА ЗРОСТАННЯМ ВІД MIN ДО MAX, ПІСЛЯ ТОГО ЧИСЛА КРАТНІ 10
+// const minNumb = 1;
+// const maxNumb = 100;
+// for (let i = minNumb; i <= maxNumb; i += 1) {
+//   console.log(i);
+//   if (i % 10 === 0) {
+//     console.log(i);
+//   }
+// }
+
+// for (let i = minNumb; i <= maxNumb; i += 1) {
+//   if (i % 10 === 0) {
+//     console.log(i);
+//   }
+//   continue;
+// }
+
+// ЗАДАЧА 10
+// НАПИШІТЬ ПРОГРАМУ, ЯКА БУДЕ ВИЗНАЧАТИ ДОВЖИНУ ІМЕНІ , ЯКЩО ІМЯ БІЛЬШЕ 7 СИМВОЛІВ, КОНСОЛЬ ВИВОДИТЬ "Wow, you  have a REALLY long name!" , ЯКЩО МЕНШЕ 7
+// "Your name isn't very long"
+// const name = prompt("Your Name");
+// if (name.length > 7) {
+//   console.log("Wow, you  have a REALLY long name!");
+// } else {
+//   console.log("Your name isn't very long");
+// }

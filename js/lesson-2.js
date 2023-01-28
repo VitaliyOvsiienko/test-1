@@ -27,3 +27,19 @@
 // styles.unshift('Рэп', 'Регги');
 
 // console.log(styles);
+
+
+// ЗАДАЧА 2
+// Напишіть ф-цію logItems(array) , яка буде получати масив і використовуючи цикл for , який для кожного елемента масива буде виводити в консоль 
+// повідомлення у форматі <індекс елемента> та <значення елемента>.
+// Номерація для кожного елемента масива ['Mango', 'Poly', 'Ajax'] з індексом 0 буде виведено 1 - Mango, а для индекса 2 выведет 3 - Ajax.
+
+// const users = ['Mango', 'Poly', 'Ajax'];
+// function logItems(array){
+//     for( let i = 0; i < users.length; i ++){
+//         // console.log('index', i);
+//         // console.log('value', users[i]);
+//         console.log(i, users[i]);
+//     }
+// }
+// logItems();

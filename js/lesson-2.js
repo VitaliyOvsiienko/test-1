@@ -89,3 +89,33 @@
 
 // console.log(word === str);
 
+// ЗАДАЧА 7
+// Виконайте рефакторинг замінивши обявлення ф-ції з function declaration на function expression та на стрілочну функцію
+// function checkNumbers(a, b) {
+//   if (a > b) {
+//     return `число ${a} більше ${b}`;
+//   }
+
+//   return `число ${b} більше ${a}`;
+// }
+
+// const checkNumbers = function(a, b) {
+//     if (a > b) {
+//     return `число ${a} більше ${b}`;
+//   }
+
+//   return `число ${b} більше ${a}`;
+// // }
+// }
+
+
+
+// const checkNumber = (a, b) => {
+//     if (a > b) {
+//     return `число ${a} більше ${b}`;
+//   }
+
+//   return `число ${b} більше ${a}`;
+// }
+
+// const checkNumber = (a, b) => a > b ? `число ${a} більше ${b}` : `число ${b} більше ${a}`

@@ -88,6 +88,7 @@
 // const word = str.split("").reverse().join("");
 
 // console.log(word === str);
+<<<<<<< Updated upstream
 
 // ЗАДАЧА 7
 // Виконайте рефакторинг замінивши обявлення ф-ції з function declaration на function expression та на стрілочну функцію
@@ -128,3 +129,5 @@ return `Привіт, ${name}` ;
 }
 console.log(greet("Василь"));//Привіт Василь
 console.log(greet());//Привіт гість
+=======
+>>>>>>> Stashed changes

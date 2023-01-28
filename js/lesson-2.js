@@ -63,7 +63,7 @@ const findSmallestNumber = function (numbers){
              smallNumber = number;
          }
          }
-         return findSmallestNumber;
+         return smallNumber;
 }
 console.log(findSmallestNumber([2, 17, 94, 1, 23, 37])); 
 console.log(findSmallestNumber([49, 4, 83, 7, 12]));

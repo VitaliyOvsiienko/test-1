@@ -136,6 +136,14 @@ const scientists = [
   },
 ];
 // 1)получити масив вчених які народились у 19ст;
-const centure = scientists.filter((scientist) => scientist.born >= 1800 && scientist.born < 1900).map((scientist) => `${scientist.name} ${scientist.surname}`);
-console.log(centure)
+// const centure = scientists.filter((scientist) => scientist.born >= 1800 && scientist.born < 1900).map((scientist) => `${scientist.name} ${scientist.surname}`);
+// console.log(centure)
 
+
+
+// 2)порахувати загальну суму років скільки прожили вчені , і визначити середнє значення;
+
+// const sumYear = scientists.reduce((acc, scientist) => acc + (scientist.dead - scientist.born), 0);
+// const result = sumYear / scientists.length
+// console.log(sumYear);
+// console.log(result);

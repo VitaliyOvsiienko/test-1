@@ -43,6 +43,7 @@
 // МАЄМО МАСИВ, ПОТРІБНО:
 // 1)получити масив вчених які народились у 19ст;
 // 2)порахувати загальну суму років скільки прожили вчені , і визначити середнє значення;
+// 3) Відсортувати вчених по алфавіту;
 // 4)відсортувати по кількості прожитих років;
 // 5)відфільтрувати, хто народився в 15,16,17ст;
 // 6)знайти рік народження Albert Einstein;
@@ -147,3 +148,16 @@ const scientists = [
 // const result = sumYear / scientists.length
 // console.log(sumYear);
 // console.log(result);
+
+// 3) Відсортувати вчених по алфавіту;
+
+// const scientistAlfabet = [...scientists].sort((a, b) => a.name[0] > b.name[0] ? 1 : -1);
+// console.log(scientistAlfabet)
+
+// 4)відсортувати по кількості прожитих років;
+// const scientistAlfabet = [...scientists].sort((a, b) => (a.dead - a.born) - (b.dead - b.born));
+// console.log(scientistAlfabet)
+
+// 5)відфільтрувати, хто народився в 15,16,17ст;
+// const oldCentury = scientists.filter((scientist) => scientist.born >= 1400 && scientist.born < 1700);
+// console.log(oldCentury);

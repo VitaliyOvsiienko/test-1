@@ -140,8 +140,6 @@ const scientists = [
 // const centure = scientists.filter((scientist) => scientist.born >= 1800 && scientist.born < 1900).map((scientist) => `${scientist.name} ${scientist.surname}`);
 // console.log(centure)
 
-
-
 // 2)порахувати загальну суму років скільки прожили вчені , і визначити середнє значення;
 
 // const sumYear = scientists.reduce((acc, scientist) => acc + (scientist.dead - scientist.born), 0);
@@ -161,4 +159,79 @@ const scientists = [
 // 5)відфільтрувати, хто народився в 15,16,17ст;
 // const oldCentury = scientists.filter((scientist) => scientist.born >= 1400 && scientist.born < 1700);
 // console.log(oldCentury);
+
+
+// 6)знайти рік народження Albert Einstein;
+// const einstein = scientists.find(
+//   (scientist) => scientist.name === "Albert" && scientist.surname === "Einstein"
+// );
+
+// console.log(einstein);
+
+// 7)визначити, чи усі вчені працювали у 19ст;
+
+// const everyScientists = scientists.every(
+//   (scientist) =>
+//     scientist.born >= 1800 && scientists.born <= 1900 && scientist.dead >= 1800
+// );
+// console.log(everyScientists);
+
+// Домашнє завдання !!!!
+
+// ЗАДАЧА 1
+// 1) Напишіть ф - ю конструктор яка створює обєкт person з такимим ключами:
+// const Person = {
+//   firstName,
+//   lastName,
+//   age,
+//   gender,
+//   interest,
+//   bio() {
+//     // виводить рядок Привіт {імя} мені {вік} років. Мені подобається {інтерес}
+//   },
+//   greeting() {
+//     // Привіт, я {імя}
+//   },
+// };
+// const user = new Person(
+//     "Den",
+//    "Dounot",
+//     40,
+//     "male",
+//    "React",
+//   );
+
+// ЗАДАЧА 2
+// Напишіть клас User для створення користувача з наступними властивостями:
+// username - імя, рядок
+// age - вік, число
+// numberOfPosts - кількість постів, число
+// Клас очікує один параметр - об'єкт налаштувань з однойменними властивостями.
+// Добавте метод getInfo(), який повертає рядок:
+// User ${ імя } is ${ вік } years old and has ${ кількість постів } posts.
+
+// ЗАДАЧА 3
+// Напиши клас Storage який створює об'єкти керувати складом товарів.
+// При виклику отримуватиме один аргумент - початковий масив товарів, і записуватиме його у властивість items.
+// Добавте методи класу:
+
+// getItems() - повертає масив товарів.
+// addItem(item) - отримує новий товар та додає його до поточних.
+// removeItem(item) - отримає товар і, якщо він є, видаляє його з поточних.
+
+// const items = new Storage(["Виноград", "Банани", "Кокоси", "Ківі"]);
+// items.addItem("Манго");
+// items.removeItem("Ківі")
+
+// ЗАДАЧА 4
+// Напиши клас Client який створює об'єкт із властивостями login і email.
+// Оголоси приватні властивості #login і #email, доступ до яких зроби через геттер та сеттер login і email.
+
+// ЗАДАЧА 5
+// Виконати сортування масиву назв моніторів в алфавітному та зворотному алфавітному порядку.
+// const items = ["SAMSUNG", "LG", "ASUS", "DELL", "BENQ"];
+
+// ЗАДАЧА 5
+// Виконати сортування масиву назв моніторів в алфавітному та зворотному алфавітному порядку.
+// const items = ["SAMSUNG", "LG", "ASUS", "DELL", "BENQ"];
 

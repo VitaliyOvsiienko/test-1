@@ -162,5 +162,4 @@ const scientists = [
 // 5)відфільтрувати, хто народився в 15,16,17ст;
 // const oldCentury = scientists.filter((scientist) => scientist.born >= 1400 && scientist.born < 1700);
 // console.log(oldCentury);
-=======
->>>>>>> Stashed changes
+

@@ -38,7 +38,6 @@
 //   console.log("Продукт успішно створений", product);
 // };
 // makeProduct("Холодильник", 10000, showProduct);
-<<<<<<< Updated upstream
 
 // ЗАДАЧА 3
 // МАЄМО МАСИВ, ПОТРІБНО:

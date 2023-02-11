@@ -160,6 +160,7 @@ const scientists = [
 // const oldCentury = scientists.filter((scientist) => scientist.born >= 1400 && scientist.born < 1700);
 // console.log(oldCentury);
 
+
 // 6)знайти рік народження Albert Einstein;
 // const einstein = scientists.find(
 //   (scientist) => scientist.name === "Albert" && scientist.surname === "Einstein"
@@ -233,3 +234,4 @@ const scientists = [
 // ЗАДАЧА 5
 // Виконати сортування масиву назв моніторів в алфавітному та зворотному алфавітному порядку.
 // const items = ["SAMSUNG", "LG", "ASUS", "DELL", "BENQ"];
+

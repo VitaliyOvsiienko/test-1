@@ -36,3 +36,26 @@
 
 // newCars.append(...elements);
 
+// ЗАДАЧА 2
+// 2.1НАПИШІТЬ КАЛЬКУЛЯТОР, ЯКИЙ БУДЕ РАХУВАТИ ЦІНУ ШАШЛИКА, В ЗАЛЕЖНОСТІ
+//  ВІД ЦІНИ ЗА КІЛОГРАМ І КІЛЬКОСТІ КУПЛЕНОГО ПРОДУКТА , І БУДЕ ВИВОДИТИ РЕЗУЛЬТАТ НА ЕКРАН,
+
+const refs = {
+    priceInput: document.querySelector("#price"),
+    quantityInput: document.querySelector("#quantity"),
+    totalText: document.querySelector(".total"),
+    form: document.querySelector(".form"),
+    amount: document.querySelector(".amount"),
+}
+console.log(refs)
+
+function calculator() {
+    const price = refs.priceInput.value;
+    const quantity = refs.quantityInput.value;
+    const total = price * quantity;
+    refs.totalText.textContent = total;
+    refs.amount.textContent = quantity;
+}
+
+window.addEventListener("DOMContentLoaded", calculator)
+refs.form.addEventListener("input", calculator)

@@ -23,3 +23,25 @@
 //     nav.classList.remove('.fixed-nav')
 // }
 // window.addEventListener('scroll', fixedNav); 
+
+// УМОВА ЗАДАЧІ:
+// Оптимізуйте роботу scroll та resize за допомогою бібліотеки lodash  підключивши скрипт 
+// <script src="https://cdn.jsdelivr.net/npm/lodash@4.17.21/lodash.min.js"></script>
+
+function scroll(){
+    console.log('scroll');
+}
+
+function resize(){
+    console.log('resize');
+}
+
+// addEventListener('resize', resize);
+
+// const throttleScrole = _.throttle(scroll, 1000);
+
+// addEventListener('scroll', throttleScrole);
+
+addEventListener('scroll', _.throttle(scroll, 1000));
+
+addEventListener('resize', _.throttle(resize, 1000));

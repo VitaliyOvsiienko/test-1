@@ -28,20 +28,34 @@
 // Оптимізуйте роботу scroll та resize за допомогою бібліотеки lodash  підключивши скрипт 
 // <script src="https://cdn.jsdelivr.net/npm/lodash@4.17.21/lodash.min.js"></script>
 
-function scroll(){
-    console.log('scroll');
-}
+// function scroll(){
+//     console.log('scroll');
+// }
 
-function resize(){
-    console.log('resize');
-}
+// function resize(){
+//     console.log('resize');
+// }
 
-// addEventListener('resize', resize);
+// // addEventListener('resize', resize);
 
-// const throttleScrole = _.throttle(scroll, 1000);
+// // const throttleScrole = _.throttle(scroll, 1000);
 
-// addEventListener('scroll', throttleScrole);
+// // addEventListener('scroll', throttleScrole);
 
-addEventListener('scroll', _.throttle(scroll, 1000));
+// addEventListener('scroll', _.throttle(scroll, 1000));
 
-addEventListener('resize', _.throttle(resize, 1000));
+// addEventListener('resize', _.throttle(resize, 1000));
+
+// УМОВА ЗАДАЧІ:
+// Написати сайт на якому під час завантаження програється відео. 
+// Як тільки відео пропадає з області видимості більш ніж на 50% - ставити його на паузу
+
+// const player = document.querySelector("video");
+// function stopVideo(){
+// if(!player.paused) {
+//     player.pause()
+// } else {player.play()}
+// }
+// const playVideo = new IntersectionObserver(stopVideo, {threshold: 0.5
+// });
+// playVideo.observer(player);
